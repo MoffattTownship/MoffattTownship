@@ -26,7 +26,10 @@ const b64urlToBytes = (s) => {
 
 async function verifyAccess(request, env) {
   if (env.DEV_BYPASS_AUTH === 'true') return { email: 'dev@localhost' };
-  const token = request.headers.get('Cf-Access-Jwt-Assertion');
+  // The header is only added on Access-protected paths (/admin*); saves and uploads go to /api/*,
+  // so also accept the CF_Authorization cookie that Access sets after login.
+  const cookie = (request.headers.get('Cookie') || '').match(/(?:^|;\s*)CF_Authorization=([^;]+)/);
+  const token = request.headers.get('Cf-Access-Jwt-Assertion') || (cookie && cookie[1]);
   if (!token || !env.ACCESS_TEAM_DOMAIN || !env.ACCESS_AUD) return null; // fail closed
   try {
     const [h, p, s] = token.split('.');

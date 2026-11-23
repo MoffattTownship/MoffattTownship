@@ -15,5 +15,5 @@ bucket_name = "moffatt-township"
 
 [vars]
 # From Zero Trust > Access > Applications > (your admin app)
-ACCESS_TEAM_DOMAIN = ""   # e.g. yourteam.cloudflareaccess.com
+ACCESS_TEAM_DOMAIN = "divine-mouse-8dda.cloudflareaccess.com"
 ACCESS_AUD = ""           # Application Audience (AUD) tag

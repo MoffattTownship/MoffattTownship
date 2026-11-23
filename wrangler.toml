@@ -1,0 +1,19 @@
+name = "moffatt-township"
+main = "worker/index.js"
+compatibility_date = "2026-09-01"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+# The Worker sees these paths first; everything else is served as a static file.
+run_worker_first = ["/api/*", "/files/*", "/admin", "/admin/*"]
+not_found_handling = "single-page-application"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "moffatt-township"
+
+[vars]
+# From Zero Trust > Access > Applications > (your admin app)
+ACCESS_TEAM_DOMAIN = ""   # e.g. yourteam.cloudflareaccess.com
+ACCESS_AUD = ""           # Application Audience (AUD) tag

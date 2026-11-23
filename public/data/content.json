@@ -1,0 +1,92 @@
+{
+  "site": {
+    "name": "Moffatt Township",
+    "tagline": "Arenac County, Michigan",
+    "sealAlt": "Moffatt Township, Arenac County, Michigan official seal",
+    "heroTitle": "Welcome to Moffatt Township",
+    "heroText": "A northern Michigan rural community in Arenac County. Find meetings, permits, ordinances, rentals and township services here.",
+    "heroImage": "",
+    "heroAlt": "",
+    "phone": "989-836-2452",
+    "phoneLabel": "Clerk's office",
+    "email": "clerk@moffatttownship.gov",
+    "mailing": "Moffatt Township, PO Box 58, Alger, MI 48610",
+    "hallName": "Moffatt Township Hall",
+    "hallAddress": "1590 N M-76, Alger, MI 48610",
+    "hallDirections": "Just north of Maple Ridge Road.",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=1590+N+M-76+Alger+MI+48610",
+    "hoursNote": "The township hall has no regular office hours. Please call or email the appropriate official to reach us.",
+    "parkName": "Moffatt Township Park",
+    "parkAddress": "1611 Henry St (between Newberry and Maple Ridge Road)",
+    "parkNote": "The park is not available from Nov 1 to April 30.",
+    "rentalsEmail": "planningsec@moffatttownship.gov",
+    "rentalsNote": "Review the rental agreement, email to confirm availability, then mail the completed form with payment to: Moffatt Township, Attention: Rentals, PO Box 58, Alger, MI 48610."
+  },
+  "nav": [
+    { "label": "Home", "href": "#/" },
+    { "label": "Government", "children": [
+      { "label": "Officials", "href": "#/officials" },
+      { "label": "Meetings", "href": "#/meetings" },
+      { "label": "Minutes", "href": "#/minutes" },
+      { "label": "Voting Info", "href": "#/voting" }
+    ]},
+    { "label": "Services", "children": [
+      { "label": "Permits", "href": "#/permits" },
+      { "label": "Property Taxes", "href": "#/property-taxes" },
+      { "label": "Rubbish & Recycling", "href": "#/rubbish-recycling" },
+      { "label": "Rentals", "href": "#/rentals" },
+      { "label": "Alger Cemetery", "href": "#/alger-cemetery" }
+    ]},
+    { "label": "Planning & Zoning", "href": "#/planning-zoning" },
+    { "label": "Accessibility", "href": "#/accessibility" }
+  ],
+  "tiles": [
+    { "title": "Permits", "desc": "Building, zoning and burn permit information.", "href": "#/permits", "icon": "permit" },
+    { "title": "Property Taxes", "desc": "Search property tax records.", "href": "#/property-taxes", "icon": "tax" },
+    { "title": "Rubbish & Recycling", "desc": "Pickup and disposal guidance.", "href": "#/rubbish-recycling", "icon": "trash" },
+    { "title": "Voting Info", "desc": "Elections and voter resources.", "href": "#/voting", "icon": "vote" },
+    { "title": "Hall & Park Rentals", "desc": "Reserve the hall or park pavilion.", "href": "#/rentals", "icon": "rental" },
+    { "title": "Alger Cemetery", "desc": "Cemetery information and records.", "href": "#/alger-cemetery", "icon": "leaf" },
+    { "title": "Planning & Zoning", "desc": "Ordinances, master plan and complaints.", "href": "#/planning-zoning", "icon": "map" },
+    { "title": "Minutes", "desc": "Read past meeting minutes.", "href": "#/minutes", "icon": "doc" }
+  ],
+  "alerts": [],
+  "announcements": [
+    { "title": "Bid request: ADA bathroom accessibility improvements", "date": "", "body": "The township is requesting bids for ADA-compliant bathroom accessibility improvements.", "link": "", "linkText": "" },
+    { "title": "New zoning complaint procedure", "date": "", "body": "Zoning complaints now require the official complaint form.", "link": "", "linkText": "" },
+    { "title": "Burn regulations", "date": "", "body": "Burn permits and regulations are handled through the Michigan DNR.", "link": "", "linkText": "" }
+  ],
+  "events": [],
+  "meetings": [
+    { "name": "Township Board", "schedule": "6:30 PM, 3rd Monday of the month, March through December. 6:30 PM on the Tuesday after the third Monday, January through February.", "location": "Moffatt Township Hall, 1590 N M-76, Alger, MI 48610" },
+    { "name": "Planning Commission", "schedule": "6:00 PM, second Thursday monthly, February through November (varies per calendar).", "location": "Moffatt Township Hall" },
+    { "name": "Fire Department", "schedule": "Business meetings: last Wednesday monthly at 7:00 PM. Training: second Wednesday monthly at 7:00 PM.", "location": "" },
+    { "name": "Board of Review", "schedule": "Held in March. You will be notified by mail regarding your valuation.", "location": "" },
+    { "name": "Zoning Board of Appeals", "schedule": "As needed.", "location": "" },
+    { "name": "Arenac County Road Commission", "schedule": "10:00 AM, 1st and 3rd Mondays of each month.", "location": "4271 Airpark Dr, Standish, MI 48658 (separate location)" }
+  ],
+  "officials": [
+    { "title": "Supervisor", "name": "Tom Spencer", "phone": "989-329-7094", "email": "super@moffatttownship.gov", "address": "" },
+    { "title": "Clerk", "name": "Allison Chmielewski", "phone": "989-836-2452 (office)", "email": "clerk@moffatttownship.gov", "address": "PO Box 58" },
+    { "title": "Treasurer", "name": "Kevin Kaczmarek", "phone": "989-836-6873", "email": "treasurer@moffatttownship.gov", "address": "PO Box 101, Alger, MI 48610" },
+    { "title": "Trustee", "name": "Dennis Wirley", "phone": "989-213-6401", "email": "trustee2@moffatttownship.gov", "address": "" },
+    { "title": "Trustee", "name": "Patrick Jedrzejczyk", "phone": "989-942-0481", "email": "trustee1@moffatttownship.gov", "address": "" },
+    { "title": "Deputy Township Clerk", "name": "Sherlyn Burkhardt", "phone": "", "email": "", "address": "" },
+    { "title": "Deputy Township Treasurer", "name": "Annette Kaczmarek", "phone": "", "email": "", "address": "" },
+    { "title": "Fire Chief", "name": "Rick Kalosis", "phone": "989-836-2865", "email": "", "address": "1590 M-76, Alger, MI 48610" },
+    { "title": "Assessor", "name": "Toni Brusch", "phone": "989-826-6318", "email": "", "address": "PO Box 882, Mio, MI 48647" },
+    { "title": "Zoning Administrator", "name": "John Hoffman", "phone": "989-666-6406", "email": "zoning@moffatttownship.gov", "address": "" }
+  ],
+  "accessibility": {
+    "statement": "Moffatt Township is committed to making this website accessible to everyone, including people with disabilities. We aim to meet the Web Content Accessibility Guidelines (WCAG) 2.2 Level AA, which also covers WCAG 2.1 AA. If you find a barrier on this site, or need information in another format, please contact the person listed below and we will respond promptly.",
+    "contactName": "Allison Chmielewski",
+    "contactTitle": "Township Clerk",
+    "contactPhone": "989-836-2452",
+    "contactEmail": "clerk@moffatttownship.gov",
+    "lastReviewed": ""
+  },
+  "footer": {
+    "developerName": "Andrew Thorner",
+    "developerUrl": ""
+  }
+}
